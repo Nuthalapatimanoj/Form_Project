@@ -31,6 +31,7 @@ const App = () => {
 
   return (
     <div className='form-container'>
+    <h3>BASIC FORM</h3>
     <form onSubmit={handleSubmit}>
       <div>
         <div>
