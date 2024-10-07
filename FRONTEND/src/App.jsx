@@ -22,6 +22,7 @@ const App = () => {
     try {
       const response = await axios.post('http://localhost:3000/submit', formData);
       console.log(response.data);
+      ..
       alert('Form submitted successfully');
     } catch (error) {
       console.error('Error submitting form', error);
